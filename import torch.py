@@ -260,35 +260,3 @@ with torch.no_grad(): # tells do NOT compute gradients
 
 print(classification_report(y_true, y_pred))
 
-# %%
-'''
-02.26.2026 Test codes
-'''
-import numpy as np
-data = np.arange(3*3).reshape(3,3)
-data.shape
-np.max(data)
-np.max(data, axis=1)
-np.max(data, axis=0)
-np.sum(data, axis=1)
-
-def f():
-    return 1,2
-
-a, b = f()
-print(a, b)
-
-_
-i
-data
-
-outputs
-outputs.shape
-torch.max(outputs, 1)
-torch.argmax(outputs, 1)
-
-len(test_loader) % 64
-
-data_i=2
-plt.matshow(images[data_i].numpy().squeeze(0))
-outputs[data_i]
