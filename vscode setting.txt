@@ -1,0 +1,90 @@
+
+    "atomKeymap.promptV3Features": true,
+    "editor.formatOnPaste": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.files.showOpenedFileInNewWindow"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "C:\\Users\\jsyoo\\anaconda3\\python.exe",
+    "editor.inlineSuggest.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    	"meta.attribute.python",
+                        // "meta.member.access.python"
+                ],
+                "settings": {
+                    "foreground": "#D97076" // red color for class attributes
+                }
+            },
+            {
+                "scope": [
+                    "meta.function-call.generic.python"
+                ],
+                "settings": {
+                    "foreground": "#70ADEE" // blue color for functions
+                }
+            }
+        ]
+    },
+    "multiCommand.commands": [
+
+        {
+            "command": "multiCommand.runLineAndMoveCursor",
+            "sequence": [
+                {
+                    "command": "jupyter.execSelectionInteractive"
+                },
+                {
+                    "command": "cursorDown"
+                }
+            ]
+        },
+        {
+            "command": "multiCommand.run",
+            "sequence": [
+                {
+                    "command": "jupyter.execSelectionInteractive"
+                },
+                {
+                    "command": "cursorDown"
+                }
+            ]
+        }
+    ],
+    "jupyter.askForKernelRestart": false,
+    "notebook.output.textLineLimit": 50,
+    "notebook.output.scrolling": true,
+    "git.confirmSync": false,
+    "python.analysis.enablePytestSupport": false,
+    "debug.console.wordWrap": false,
+    "diffEditor.wordWrap": "off",
+    "editor.wordWrapColumn": 200,
+    "jupyter.interactiveWindow.codeLens.enable": false,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fill",
+    "editor.minimap.maxColumn": 50,
+    "python.analysis.autoFormatStrings": true,
+    "editor.showFoldingControls": "always",
+    "editor.accessibilitySupport": "off",
+    "remote.SSH.connectTimeout": 30,
+    "interactiveWindow.executeWithShiftEnter": true,
+    "remote.SSH.permitPtyAllocation": true,
+    "remote.SSH.enableDynamicForwarding": false,
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Atom One Dark",
+    "github.copilot.advanced": {},
+    "github.copilot.enable": {
+        "*": false
+    },
+    "python.languageServer": "Pylance",
+    "github.copilot.nextEditSuggestions.fixes": false,
+    "github.copilot.inlineSuggest.enable": false,
+    "github.copilot.suggestion.enable": false,
+    "github.copilot.editor.enableAutoCompletions": false,
+    "editor.inlineSuggest.enabled": false,
+    "python.analysis.languageServerMode": "light",
